@@ -7,12 +7,12 @@ namespace myApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            x = 1;
-            y = 0;
-            z = division(x, y)
+            int x = 1;
+            int y = 0;
+            int z = division(x, y);
         }
 
-        public int division(x as int, y as int)
+        public static int division(int x, int y)
         {
             return x/y;
         }
